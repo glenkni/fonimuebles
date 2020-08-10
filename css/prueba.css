@@ -1,0 +1,143 @@
+html {
+  scroll-behavior: smooth;
+ /*Comenta la línea (o dale el valor 'auto' a scroll behavior )
+ para probar la diferencia con y sin scroll suavizado*/
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #ececf1; 
+    width: auto;
+  }
+  
+  .navbar {
+    background-color: #080808;
+    position:sticky;
+ }
+    .navbar .navbar-brand {
+      margin: 0;
+      padding: 0; }
+    .navbar .navbar-collapse {
+      justify-content: flex-end !important;
+      padding-right: 30px !important; }
+  
+  .logo {
+    height: 65px;
+    padding-right: 15px;
+    padding-left: 5px; }
+  
+  h4 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+   }
+  
+  .tituloFoni {
+    animation-duration: 2s;
+    animation-name: aparece;
+    font-size: 42px;
+    margin-top: 30px;
+  
+  }
+  
+  @keyframes aparece {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 100; } }
+  
+  .carousel {
+    padding-top: 25px;
+    padding-bottom: 25px; 
+  }
+    .carousel .carousel-item {
+      height: 100vh;
+      min-height: 350px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+  
+
+  
+  #nosotros {
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  .nosotros {
+    padding: 15px; }
+  
+  p {
+    font-size: 16px;
+    color: #1b1b1d;
+  }
+
+  .foot {
+    color: #ececf1;
+
+  }
+  
+  .descr {
+    line-height: 1.4;
+    font-size: 16px;
+    margin: 30px;
+  }
+
+  .gallery {
+    margin-top: 70px;
+  }
+  
+  #galeria {
+    margin-bottom: 50px;
+  }
+  .btn {
+    margin-top: 10px; }
+  
+  footer {
+    background-color: #080808;
+    padding: 15px;
+    margin-top: 110px; }
+  
+  .copy {
+    padding-top: 45px; }
+  
+  .formulario1 {
+    margin-top: 10px; }
+
+  .formulario {
+    margin-top: 50px;
+  }
+  
+  .envios {
+    background-color: #acacaf !important;
+    margin-top: 100px;
+    height: 210px;
+  }
+  
+  .fotosEnvios {
+    height: 100px; }
+
+.logoRedes {
+  height: 40px;
+  padding: 5px;
+}
+  
+  input {
+    transition: all 3s; }
+    input input:focus {
+      font-size: 24px; }
+
+.titEnv {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.fotoContacto {
+  height: 450px;
+}
+ .nosotros1 {
+   width: 100%;
+ }
+
